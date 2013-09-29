@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="OnlineDocWeb" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	OnlineDocWeb</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>
+		OnlineDocServlet</display-name>
+		<servlet-name>OnlineDocServlet</servlet-name>
+		<servlet-class>
+		zju.onlinedoc.web.servlet.OnlineDocServlet</servlet-class>
+		
+		<!-- default area -->
+		<init-param>
+			<param-name>defaultPage</param-name>
+			<param-value>/jsps/home/home.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>defaultCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.HomeCommand</param-value>
+		</init-param>
+		
+		<!-- home area -->
+		<init-param>
+			<param-name>homePage</param-name>
+			<param-value>/jsps/home/home.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>homeCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.HomeCommand</param-value>
+		</init-param>
+		
+		<!-- user area -->
+		<init-param>
+			<param-name>loginPage</param-name>
+			<param-value>/jsps/user/login.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>loginCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.LoginCommand</param-value>
+		</init-param>
+		<init-param>
+			<!-- default is true -->
+			<param-name>loginNeedAuthorization</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doLoginPage</param-name>
+			<param-value>/jsps/home/home.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doLoginFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doLoginCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoLoginCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doLoginNeedAuthorization</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>doLogoutPage</param-name>
+			<param-value>/jsps/user/login.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doLogoutCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoLogoutCommand</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>registerPage</param-name>
+			<param-value>/jsps/user/register.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>registerNeedAuthorization</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doRegisterPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doRegisterFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doRegisterCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoRegisterCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doRegisterNeedAuthorization</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		
+		<!-- edit area -->
+		<init-param>
+			<param-name>createPage</param-name>
+			<param-value>/jsps/editor/edit.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>createCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.CreateCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>updatePage</param-name>
+			<param-value>/jsps/editor/edit.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>updateFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>updateCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.UpdateCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doSavePage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doSaveFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doSaveCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoSaveCommand</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>doDeletePage</param-name>
+			<param-value>/jsps/home/home.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doDeleteCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoDeleteCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doDeleteFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>sharePage</param-name>
+			<param-value>/jsps/editor/share.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>shareFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>shareCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.ShareCommand</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doSharePage</param-name>
+			<param-value>/jsps/home/home.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doShareFailPage</param-name>
+			<param-value>/jsps/home/result.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>doShareCommand</param-name>
+			<param-value>zju.onlinedoc.web.command.DoShareCommand</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OnlineDocServlet</servlet-name>
+		<url-pattern>*.zju</url-pattern>
+	</servlet-mapping>
+	
+	<session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+      
+    <listener>
+    	<listener-class>zju.onlinedoc.web.servlet.OnlineDocSessionListener</listener-class>
+    </listener>
+    <listener>
+    	<listener-class>zju.onlinedoc.web.servlet.OnlineDocSessionAttributeListener</listener-class>
+    </listener>
+    
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

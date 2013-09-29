@@ -1,0 +1,4 @@
+http\://zju.edu/onlinedoc/grid/userlogin/UserLogin/bindings=zju.onlinedoc.grid.userLoginService.stubs.bindings
+http\://zju.edu/onlinedoc/grid/userlogin/UserLogin=zju.onlinedoc.grid.userLoginService.stubs
+http\://zju.edu/onlinedoc/grid/userlogin/UserLogin/service=zju.onlinedoc.grid.userLoginService.stubs.service
+http\://meta.onlinedoc.zju=zju.onlinedoc.meta.stubs

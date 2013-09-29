@@ -1,0 +1,3 @@
+#Thu Oct 25 16:40:35 CST 2007
+eclipse.preferences.version=1
+service.classes=UserLogin\=UserLogin/src/zju/onlinedoc/grid/UserLogin.java

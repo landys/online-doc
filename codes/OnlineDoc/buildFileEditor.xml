@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="fileEditor" name="FileEditor Service Deploy Tomcat" basedir=".">
+	<target name="fileEditor">
+		<property name="gar.name" location="${fileEditor.gar.name}" userproperty=""/>
+    	<echo message="${gar.name}"/>
+    	<ant antfile="${build.packages}" target="deployGar"/>
+	</target>
+</project>

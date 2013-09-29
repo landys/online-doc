@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="test/TestGrid.java|test/TestGridShare.java|test/TestShareFile.java" kind="src" output="testbin" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=".apt_generated"/>
+	<classpathentry kind="con" path="de.fb12.gdt.GT4ClasspathContainerInitializer"/>
+	<classpathentry kind="con" path="de.fb12.gdt.AnnotationClasspathContainerInitializer"/>
+	<classpathentry kind="con" path="de.fb12.gdt.GDTUtilsClasspathContainerInitializer"/>
+	<classpathentry excluding="zju/onlinedoc/grid/client/UserLoginClient.java" kind="src" output="UserLogin/build/classes" path="UserLogin/src"/>
+	<classpathentry kind="src" output="UserLogin/build/stubs-zju_onlinedoc_grid_UserLogin/classes" path="UserLogin/build/stubs-zju_onlinedoc_grid_UserLogin/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="UserLoginService" targetNamespace="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns1="http://meta.onlinedoc.zju" xmlns:wsrpw="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" xmlns:impl="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlpp="http://www.globus.org/namespaces/2004/10/WSDLPreprocessor" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:tns="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns:wsrp="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:intf="http://zju.edu/onlinedoc/grid/userlogin/UserLogin">
+  <import namespace="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties-1.2-draft-01.wsdl" location="../../wsrf/properties/WS-ResourceProperties.wsdl"/>
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:rpns="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceLifetime-1.2-draft-01.xsd" xmlns:tns="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:import namespace="http://schemas.xmlsoap.org/ws/2004/03/addressing" schemaLocation="../../ws/addressing/WS-Addressing.xsd"/>
+   <import namespace="http://meta.onlinedoc.zju"/>
+   <element name="deleteFile">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deleteFileResponse">
+    <complexType>
+     <sequence>
+      <element name="deleteFileReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createFile">
+    <complexType>
+     <sequence>
+      <element name="fileName" type="xsd:string"/>
+      <element name="fileContent" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createFileResponse">
+    <complexType>
+     <sequence>
+      <element name="createFileReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="loginNewUser">
+    <complexType>
+     <sequence>
+      <element name="userName" type="xsd:string"/>
+      <element name="password" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="loginNewUserResponse">
+    <complexType>
+     <sequence>
+      <element name="loginNewUserReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="canLoginSystem">
+    <complexType>
+     <sequence>
+      <element name="userName" type="xsd:string"/>
+      <element name="password" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="canLoginSystemResponse">
+    <complexType>
+     <sequence>
+      <element name="canLoginSystemReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createEmptyFile">
+    <complexType>
+     <sequence>
+      <element name="fileName" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createEmptyFileResponse">
+    <complexType>
+     <sequence>
+      <element name="createEmptyFileReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getFileRecordArray">
+    <complexType/>
+   </element>
+   <element name="getFileRecordArrayResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getFileRecordArrayReturn" type="tns1:FileRecord"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getFileContent">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getFileContentResponse">
+    <complexType>
+     <sequence>
+      <element name="getFileContentReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateFileContent">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+      <element name="fileContent" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateFileContentResponse">
+    <complexType>
+     <sequence>
+      <element name="updateFileContentReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="renameFile">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+      <element name="fileName" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="renameFileResponse">
+    <complexType>
+     <sequence>
+      <element name="renameFileReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateFile">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+      <element name="fileName" type="xsd:string"/>
+      <element name="fileContent" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateFileResponse">
+    <complexType>
+     <sequence>
+      <element name="updateFileReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUserNameArray">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUserNameArrayResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getUserNameArrayReturn" type="tns1:UserInfo"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createShareFile">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="fileIds" type="xsd:int"/>
+      <element maxOccurs="unbounded" name="userNames" type="xsd:string"/>
+      <element name="type" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createShareFileResponse">
+    <complexType>
+     <sequence>
+      <element name="createShareFileReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deleteFileList">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="fileIds" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deleteFileListResponse">
+    <complexType>
+     <sequence>
+      <element name="deleteFileListReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getFileRecord">
+    <complexType>
+     <sequence>
+      <element name="fileId" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getFileRecordResponse">
+    <complexType>
+     <sequence>
+      <element name="getFileRecordReturn" type="tns1:FileRecord"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="createResource">
+    <complexType/>
+   </element>
+   <element name="createResourceResponse">
+    <complexType>
+     <sequence>
+      <element ref="wsa:EndpointReference"/>
+     </sequence>
+    </complexType>
+   </element>
+   <xsd:element name="UserId" type="xsd:int"/>
+   <element name="UserLoginResourceProperties">
+    <complexType>
+     <sequence>
+      <element maxOccurs="1" minOccurs="1" ref="tns:UserId"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+    <schema elementFormDefault="qualified" targetNamespace="http://meta.onlinedoc.zju" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType name="FileRecord">
+    <sequence>
+     <element name="fileCreateDate" nillable="true" type="xsd:string"/>
+     <element name="fileId" type="xsd:int"/>
+     <element name="fileName" nillable="true" type="xsd:string"/>
+     <element name="fileType" type="xsd:int"/>
+    </sequence>
+   </complexType>
+   <complexType name="UserInfo">
+    <sequence>
+     <element name="type" type="xsd:int"/>
+     <element name="userId" type="xsd:int"/>
+     <element name="userName" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+  </types>
+  <message name="canLoginSystemResponse">
+    <part name="parameters" element="impl:canLoginSystemResponse"/>
+  </message>
+  <message name="getFileContentResponse">
+    <part name="parameters" element="impl:getFileContentResponse"/>
+  </message>
+  <message name="deleteFileResponse">
+    <part name="parameters" element="impl:deleteFileResponse"/>
+  </message>
+  <message name="createEmptyFileRequest">
+    <part name="parameters" element="impl:createEmptyFile"/>
+  </message>
+  <message name="renameFileResponse">
+    <part name="parameters" element="impl:renameFileResponse"/>
+  </message>
+  <message name="getFileRecordRequest">
+    <part name="parameters" element="impl:getFileRecord"/>
+  </message>
+  <message name="createShareFileRequest">
+    <part name="parameters" element="impl:createShareFile"/>
+  </message>
+  <message name="getUserNameArrayResponse">
+    <part name="parameters" element="impl:getUserNameArrayResponse"/>
+  </message>
+  <message name="renameFileRequest">
+    <part name="parameters" element="impl:renameFile"/>
+  </message>
+  <message name="getUserNameArrayRequest">
+    <part name="parameters" element="impl:getUserNameArray"/>
+  </message>
+  <message name="getFileRecordResponse">
+    <part name="parameters" element="impl:getFileRecordResponse"/>
+  </message>
+  <message name="createResourceRequest">
+    <part name="parameter" element="impl:createResource"/>
+  </message>
+  <message name="updateFileContentResponse">
+    <part name="parameters" element="impl:updateFileContentResponse"/>
+  </message>
+  <message name="getFileRecordArrayRequest">
+    <part name="parameters" element="impl:getFileRecordArray"/>
+  </message>
+  <message name="createEmptyFileResponse">
+    <part name="parameters" element="impl:createEmptyFileResponse"/>
+  </message>
+  <message name="createFileRequest">
+    <part name="parameters" element="impl:createFile"/>
+  </message>
+  <message name="updateFileRequest">
+    <part name="parameters" element="impl:updateFile"/>
+  </message>
+  <message name="updateFileContentRequest">
+    <part name="parameters" element="impl:updateFileContent"/>
+  </message>
+  <message name="createFileResponse">
+    <part name="parameters" element="impl:createFileResponse"/>
+  </message>
+  <message name="updateFileResponse">
+    <part name="parameters" element="impl:updateFileResponse"/>
+  </message>
+  <message name="canLoginSystemRequest">
+    <part name="parameters" element="impl:canLoginSystem"/>
+  </message>
+  <message name="getFileRecordArrayResponse">
+    <part name="parameters" element="impl:getFileRecordArrayResponse"/>
+  </message>
+  <message name="loginNewUserRequest">
+    <part name="parameters" element="impl:loginNewUser"/>
+  </message>
+  <message name="deleteFileRequest">
+    <part name="parameters" element="impl:deleteFile"/>
+  </message>
+  <message name="getFileContentRequest">
+    <part name="parameters" element="impl:getFileContent"/>
+  </message>
+  <message name="deleteFileListResponse">
+    <part name="parameters" element="impl:deleteFileListResponse"/>
+  </message>
+  <message name="createResourceResponse">
+    <part name="parameter" element="impl:createResourceResponse"/>
+  </message>
+  <message name="deleteFileListRequest">
+    <part name="parameters" element="impl:deleteFileList"/>
+  </message>
+  <message name="createShareFileResponse">
+    <part name="parameters" element="impl:createShareFileResponse"/>
+  </message>
+  <message name="loginNewUserResponse">
+    <part name="parameters" element="impl:loginNewUserResponse"/>
+  </message>
+  <portType name="UserLoginPortType" wsrp:ResourceProperties="impl:UserLoginResourceProperties">
+    <operation name="deleteFile">
+      <input name="deleteFileRequest" message="impl:deleteFileRequest"/>
+      <output name="deleteFileResponse" message="impl:deleteFileResponse"/>
+    </operation>
+    <operation name="createFile">
+      <input name="createFileRequest" message="impl:createFileRequest"/>
+      <output name="createFileResponse" message="impl:createFileResponse"/>
+    </operation>
+    <operation name="loginNewUser">
+      <input name="loginNewUserRequest" message="impl:loginNewUserRequest"/>
+      <output name="loginNewUserResponse" message="impl:loginNewUserResponse"/>
+    </operation>
+    <operation name="canLoginSystem">
+      <input name="canLoginSystemRequest" message="impl:canLoginSystemRequest"/>
+      <output name="canLoginSystemResponse" message="impl:canLoginSystemResponse"/>
+    </operation>
+    <operation name="createEmptyFile">
+      <input name="createEmptyFileRequest" message="impl:createEmptyFileRequest"/>
+      <output name="createEmptyFileResponse" message="impl:createEmptyFileResponse"/>
+    </operation>
+    <operation name="getFileRecordArray">
+      <input name="getFileRecordArrayRequest" message="impl:getFileRecordArrayRequest"/>
+      <output name="getFileRecordArrayResponse" message="impl:getFileRecordArrayResponse"/>
+    </operation>
+    <operation name="getFileContent">
+      <input name="getFileContentRequest" message="impl:getFileContentRequest"/>
+      <output name="getFileContentResponse" message="impl:getFileContentResponse"/>
+    </operation>
+    <operation name="updateFileContent">
+      <input name="updateFileContentRequest" message="impl:updateFileContentRequest"/>
+      <output name="updateFileContentResponse" message="impl:updateFileContentResponse"/>
+    </operation>
+    <operation name="renameFile">
+      <input name="renameFileRequest" message="impl:renameFileRequest"/>
+      <output name="renameFileResponse" message="impl:renameFileResponse"/>
+    </operation>
+    <operation name="updateFile">
+      <input name="updateFileRequest" message="impl:updateFileRequest"/>
+      <output name="updateFileResponse" message="impl:updateFileResponse"/>
+    </operation>
+    <operation name="getUserNameArray">
+      <input name="getUserNameArrayRequest" message="impl:getUserNameArrayRequest"/>
+      <output name="getUserNameArrayResponse" message="impl:getUserNameArrayResponse"/>
+    </operation>
+    <operation name="createShareFile">
+      <input name="createShareFileRequest" message="impl:createShareFileRequest"/>
+      <output name="createShareFileResponse" message="impl:createShareFileResponse"/>
+    </operation>
+    <operation name="deleteFileList">
+      <input name="deleteFileListRequest" message="impl:deleteFileListRequest"/>
+      <output name="deleteFileListResponse" message="impl:deleteFileListResponse"/>
+    </operation>
+    <operation name="getFileRecord">
+      <input name="getFileRecordRequest" message="impl:getFileRecordRequest"/>
+      <output name="getFileRecordResponse" message="impl:getFileRecordResponse"/>
+    </operation>
+    <operation name="createResource">
+      <input name="createResourceRequest" message="impl:createResourceRequest"/>
+      <output name="createResourceResponse" message="impl:createResourceResponse"/>
+    </operation>
+    <operation name="GetResourceProperty">
+      <input name="GetResourcePropertyRequest" message="wsrpw:GetResourcePropertyRequest" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetResourceProperty"/>
+      <output name="GetResourcePropertyResponse" message="wsrpw:GetResourcePropertyResponse" wsa:Action="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetResourcePropertyResponse"/>
+      <fault name="InvalidResourcePropertyQNameFault" message="wsrpw:InvalidResourcePropertyQNameFault"/>
+      <fault name="ResourceUnknownFault" message="wsrpw:ResourceUnknownFault"/>
+    </operation>
+  </portType>
+</definitions>

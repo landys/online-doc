@@ -1,0 +1,922 @@
+A {
+	COLOR: #3366cc
+}
+A:visited {
+	COLOR: #666699
+}
+A:hover {
+	COLOR: #6699cc
+}
+TABLE {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TABLE.main {
+	MARGIN: 4px 4px ;
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+	}
+TR {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+FORM {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #f0f8ff; FONT-SIZE: xx-small; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #b0c8e0; SCROLLBAR-SHADOW-COLOR: #b0c8e0; SCROLLBAR-3DLIGHT-COLOR: #b0c8e0; SCROLLBAR-ARROW-COLOR: #3399ff; SCROLLBAR-TRACK-COLOR: #efefef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #b0c8e0; BACKGROUND-COLOR: #ffffff
+}
+UL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsToolBar {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#3366FF,endColorStr=#3399FF); BACKGROUND-COLOR:#3366FF;
+}
+.wpsToolBar2 {
+	BACKGROUND-COLOR: #3366ff
+}
+.wpsToolBarLink {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsToolBarLink:visited {
+	FONT-SIZE: 7pt; COLOR: #3399ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsToolBarLink:hover {
+	FONT-SIZE: 7pt; COLOR: #000066; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsToolBarSeparator {
+	3300cc: 
+}
+.wpsPlaceBar {
+	FONT-SIZE: xx-small; COLOR: #9c93cc; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3232cd
+}
+.wpsPlaceBarLink {
+	FONT-SIZE: xx-small; COLOR: #9c93cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPlaceBarLink:visited {
+	FONT-SIZE: xx-small; COLOR: #9c93cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPlaceBarLink:hover {
+	FONT-SIZE: xx-small; COLOR: #9c93cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPlaceBar3dHighlight {
+	BACKGROUND-COLOR: #b6b7d3
+}
+.wpsPlaceBar3dShadow {
+	BACKGROUND-COLOR: #5d5e96
+}
+.wpsSelectedPlace {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace:active {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPlace3dHighlight {
+	BACKGROUND-COLOR: #b6b7d3
+}
+.wpsSelectedPlace3dShadow {
+	BACKGROUND-COLOR: #5d5e96
+}
+.wpsUnSelectedPlace {
+	FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000066; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:visited {
+	FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #333366; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:hover {
+	FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #333366; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace:active {
+	FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #333366; TEXT-DECORATION: none
+}
+.wpsUnSelectedPlace3dHighlight {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsUnSelectedPlace3dShadow {
+	BACKGROUND-COLOR: #3300cc
+}
+.wpsPageBar {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPageBarLink {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPageBarLink:visited {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPageBarLink:hover {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.wpsPageBar3dHighlight {
+	BACKGROUND-COLOR: #ffcc33
+}
+.wpsPageBar3dShadow {
+	BACKGROUND-COLOR: #cc9900
+}
+.wpsSelectedPage2 {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage2:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage2:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage2:active {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage23dHighlight {
+	BACKGROUND-COLOR: #cfdbe8
+}
+.wpsSelectedPage23dShadow {
+	BACKGROUND-COLOR: #3399ff
+}
+.wpsSelectedPage {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage:active {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3399ff; TEXT-DECORATION: none
+}
+.wpsSelectedPage3dHighlight {
+	BACKGROUND-COLOR: #ffcc33
+}
+.wpsSelectedPage3dShadow {
+	BACKGROUND-COLOR: #cc9900
+}
+.wpsUnSelectedPage2 {
+	FONT-SIZE: xx-small; COLOR: #3333cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e2eaf9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage2:visited {
+	FONT-SIZE: xx-small; COLOR: #3333cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e2eaf9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage2:hover {
+	FONT-SIZE: xx-small; COLOR: #3333cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e2eaf9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage2:active {
+	FONT-SIZE: xx-small; COLOR: #3333cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e2eaf9; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage23dHighlight {
+	BACKGROUND-COLOR: #66ccff
+}
+.wpsUnSelectedPage23dShadow {
+	BACKGROUND-COLOR: #3399ff
+}
+.wpsUnSelectedPage {
+	FONT-SIZE: xx-small; COLOR: #0066ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:visited {
+	FONT-SIZE: xx-small; COLOR: #0066ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:hover {
+	FONT-SIZE: xx-small; COLOR: #0066ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage:active {
+	FONT-SIZE: xx-small; COLOR: #0066ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffcc00; TEXT-DECORATION: none
+}
+.wpsUnSelectedPage3dHighlight {
+	BACKGROUND-COLOR: #ffcc33
+}
+.wpsUnSelectedPage3dShadow {
+	BACKGROUND-COLOR: #cc9900
+}
+.wpsNavSelectedNode {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:visited {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:hover {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavSelectedNode:active {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:visited {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:hover {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectedNode:active {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode {
+	FONT-SIZE: xx-small; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:visited {
+	FONT-SIZE: xx-small; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:hover {
+	FONT-SIZE: xx-small; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavUnSelectableNode:active {
+	FONT-SIZE: xx-small; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.wpsNavLevel1 {
+	FONT-WEIGHT: bold
+}
+.wpsPortletTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; LETTER-SPACING: 1px; BACKGROUND-COLOR: #f0f8ff
+}
+.wpsEnrollBack {
+	BACKGROUND-COLOR: #ffffcc
+}
+.wpsTableAdminHead {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eaeaea
+}
+.wpsTaskManagerUnselected {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #999999
+}
+.wpsAdminHeadSeparator {
+	BACKGROUND-COLOR: #999999
+}
+.wpsTaskIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsDialogIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsDialogDisabledIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #cfc5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPortletBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsEditBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsConfigureBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.wpsPortletColorBack {
+	BACKGROUND-COLOR: #cccccc
+}
+.wpsPortletHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: black; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsEditHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPortletText {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsEditText {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPortletSmText {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsEditSmText {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPortletTinyText {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsPortletBody {
+	
+}
+.wpsEditField {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsButtonText {
+	FONT-SIZE: 11px;
+	FONT-WEIGHT:bold;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	background : url(button_bg2.gif);
+	border-bottom : 1px solid #6699FF;
+	border-top : 1px solid #6699FF;
+	border-left : 1px solid #6699FF;
+	border-right : 1px solid #6699FF;	
+	cursor:hand;
+}
+.wpsInboxButtonText {
+	FONT-SIZE: 9px;
+	FONT-WEIGHT:bold;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	background : url(button_bg2.gif);
+	border-bottom : 1px solid #6699FF;
+	border-top : 1px solid #6699FF;
+	border-left : 1px solid #6699FF;
+	border-right : 1px solid #6699FF;	
+	cursor:hand;
+}
+.wpsTableHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8
+}
+.wpsTableHeadRight {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: right
+}
+.wpsTableHeadLeft {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: left
+}
+.wpsTableText {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; Text-ALIGN:center
+}
+.wpsTableTextRed {
+	FONT-SIZE: xx-small; COLOR: #c83030; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsTableTextRedRight {
+	FONT-SIZE: xx-small; COLOR: #c83030; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.wpsTableTextGreen {
+	FONT-SIZE: xx-small; COLOR: #228b22; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsTableTextGreenRight {
+	FONT-SIZE: xx-small; COLOR: #228b22; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.wpsTableTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsTableTextBoldRight {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.wpsTableRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.wpsTableNrmRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.wpsTableShdRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eaeaea
+}
+.wpsTableShdRowLeft {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: left
+}
+.wpsTableShdRowRight {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: right
+}
+.wpsTableHeadLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsTableHeadLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsTableHeadLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsLabelText {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsDescriptionText {
+	FONT-SIZE: xx-small; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsFieldErrorText {
+	COLOR: #c83030
+}
+.wpsFieldWarningText {
+	COLOR: #000000
+}
+.wpsFieldSuccessText {
+	COLOR: #000000
+}
+.wpsFieldInfoText {
+	COLOR: #999999
+}
+.wpsInlineHelpText {
+	COLOR: #009999
+}
+.weekday_header {
+	FONT-SIZE: x-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #999999
+}
+.other_month_header {
+	FONT-SIZE: xx-small; COLOR: #7e7001; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #e4e3e3
+}
+.current_month_header {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #cbdbf3
+}
+.other_month_cell {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0f0
+}
+.current_month_cell {
+	FONT-SIZE: xx-small; COLOR: black; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.current_day_header {
+	FONT-SIZE: x-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #92b5e6
+}
+A.current_day_header:link {
+	COLOR: #000000; BACKGROUND-COLOR: transparent
+}
+A.other_month_header:link {
+	COLOR: #0000ff; BACKGROUND-COLOR: transparent
+}
+A.current_month_header:link {
+	COLOR: #0050c9; BACKGROUND-COLOR: transparent
+}
+.wpsPlaceName {
+	FONT-WEIGHT: bold; COLOR: #ebebeb; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsInboxLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #b9eef8; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+UNKNOWN {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #b9eef8; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsInboxLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsFundTree {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsFundTree {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333399; FONT-FAMILY: verdana, arial, sans-serif
+}
+A.wpsFundTree:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #3300ff; FONT-FAMILY: verdana, arial, sans-serif
+}
+A.wpsFundTree:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #6699cc; FONT-FAMILY: verdana, arial, sans-serif
+}
+.wpsTableHeadClear {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: verdana, arial, sans-serif
+}
+.wpsTableHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8
+}
+.wpsTableTextRight {
+	FONT-SIZE: xx-small; FONT-FAMILY: verdana, arial, sans-serif; TEXT-ALIGN: right
+}
+.wpsFundBanner {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #fdd78c
+}
+.wpsFundAlert {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #0000cd; FONT-FAMILY: verdana, arial, sans-serif
+}
+.wpsTableShdRowLeft {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: left
+}
+
+
+
+
+
+/*A.wpsFundTreeUnselected:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none; id: wpsFundTreeVisited
+}
+A.wpsFundTreeSelected {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #228b22; FONT-FAMILY: verdana, arial, sans-serif; id: wpsFundTreeSelected; EXT-DECORATION: none
+}
+A.wpsFundTreeUnselected:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #3300ff; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none; id: wpsFundTreeHover
+}
+A.wpsFundTreeExcluded {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #ff0000; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none; id: wpsFundTreeExcluded
+}
+A.wpsFundTreeExcluded:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none; id: wpsFundTreeExcludedVisited
+}
+A.wpsFundTreeExcluded:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #3300ff; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none; id: wpsFundTreeExcludedHover
+}*/
+
+
+a.wpsFundTreeSelected
+{	
+	id=wpsFundTreeSelected;
+	font-size: 9 px;
+	color: #228B22;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+
+a.wpsFundTreeUnselected
+{	
+	id=wpsFundTreeUnselected;
+	font-size: 9 px;
+	color: #333399;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+a.wpsFundTreeUnselected:visited
+{	
+	id=wpsFundTreeVisited;
+	font-size: 9 px;
+	color: #333399;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+a.wpsFundTreeUnselected:hover
+{	
+	id=wpsFundTreeHover;
+	font-size: 9 px;
+	color: #3300FF;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+a.wpsFundTreeExcluded
+{	
+	id=wpsFundTreeExcluded;
+	font-size: 9 px;
+	color: #FF0000;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+a.wpsFundTreeExcluded:visited
+{	
+	id=wpsFundTreeExcludedVisited;
+	font-size: 9 px;
+	color: #333399;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+a.wpsFundTreeExcluded:hover
+{	
+	id=wpsFundTreeExcludedHover;
+	font-size: 9 px;
+	color: #3300FF;
+	font-family: verdana, arial, sans-serif;
+	font-weight: normal;
+	TEXT-DECORATION: none
+}
+
+
+
+
+
+
+.highlight {
+	FONT-SIZE: xx-small; COLOR: #333333; BACKGROUND-COLOR: #ffffcc; TEXT-DECORATION: none
+}
+.wpsAdminButtonLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #00008b; BACKGROUND-COLOR: #fff8dc; TEXT-DECORATION: none
+}
+A.wpsAdminButtonLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #00008b; BACKGROUND-COLOR: #fff8dc; TEXT-DECORATION: none
+}
+A.wpsAdminButtonLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #333399; BACKGROUND-COLOR: #f0f8ff; TEXT-DECORATION: none
+}
+.wpsAdminHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #228b22
+}
+.wpsDefintionLink {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsDefintionLink {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsDefintionLink:active {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsDefintionLink:hover {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsCenterBlueText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; TEXT-ALIGN: center
+}
+.wpsLeftBlueText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; TEXT-ALIGN: left
+}
+.wpsHighPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ff6347; FONT-FAMILY: verdana, arial, sans-serif
+}
+A.wpsHighPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ff6347; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsHighPriority:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #800000; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsHighPriority:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #cd5c5c; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsMediumPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #daa520; FONT-FAMILY: verdana, arial, sans-serif
+}
+A.wpsMediumPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #daa520; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsMediumPriority:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffcc00; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsMediumPriority:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #d2b48c; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsLowPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #008000; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsLowPriority {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #008000; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.wpsLowPriority:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #008080; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsLowPriority:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #6b8e23; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.wpsLegendHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #4b93f2; FONT-FAMILY: verdana, chicago, sans-serif; LETTER-SPACING: 1px
+}
+.wpsLegendText {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana, arial, sans-serif
+}
+.wpsPortletTitleBlank {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-WEIGHT: bold; FONT-SIZE: xx-small; TEXT-TRANSFORM: uppercase; BORDER-LEFT: #ffffff 0px solid; COLOR: #3300cc; BORDER-BOTTOM: #ffcc33 1px solid; FONT-FAMILY: verdana, arial, sans-serif
+}
+.wpsWelcome {
+	FONT-WEIGHT: bold; LEFT: 400px; WIDTH: 200px; COLOR: #ffffff; POSITION: absolute; TOP: 45px
+}
+.wpsTableTextBoldBig {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000000; 1px: 
+}
+.wpsLabelHeadLeft {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #6699ff; TEXT-ALIGN: left
+}
+A.wpsFooterLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.wpsFooterLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+A.wpsFooterLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.wpsPortletTabSelected:active {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.wpsPortletTabSelected {
+	BORDER-RIGHT: #3399ff 1px solid; BORDER-TOP: #3399ff 1px solid; FONT-WEIGHT: normal; FONT-SIZE: xx-small; BORDER-LEFT: #3399ff 1px solid; COLOR: #666666; BORDER-BOTTOM: transparent 1px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.wpsPortletTabUnselected {
+	BORDER-RIGHT: #3399ff 1px solid; BORDER-TOP: #3399ff 1px solid; FONT-SIZE: xx-small; BORDER-LEFT: #3399ff 1px solid; COLOR: #666666; BORDER-BOTTOM: #3399ff 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffcc; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.wpsPortletTabSpacer {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #cfdbe8 1px solid; BACKGROUND-COLOR: #000000
+}
+A.wpsPortletTabUnselected {
+	FONT-SIZE: xx-small; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffcc; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.wpsPortletTabUnselected:active {
+	FONT-SIZE: xx-small; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffcc; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.wpsPortletTabSpacer {
+	BORDER-RIGHT: #3399ff 0px solid; BORDER-TOP: #3399ff 0px solid; FONT-SIZE: xx-small; BORDER-LEFT: #3399ff 0px solid; COLOR: #666666; BORDER-BOTTOM: #3399ff 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sort-table {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BACKGROUND: window; FONT: Icon; BORDER-LEFT: buttonshadow 1px solid; COLOR: windowtext; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.sort-table THEAD {
+	BACKGROUND: buttonface
+}
+.sort-table TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.sort-table THEAD TD {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; BORDER-LEFT: buttonhighlight 1px solid; CURSOR: default; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.sort-table THEAD TD:active {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 6px; BORDER-LEFT-COLOR: buttonshadow; BORDER-BOTTOM-COLOR: buttonhighlight; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: buttonshadow; PADDING-TOP: 3px; BORDER-RIGHT-COLOR: buttonhighlight
+}
+.sort-arrow {
+	BACKGROUND-POSITION: center center; MARGIN: 0px 2px; WIDTH: 11px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 11px
+}
+.descending {
+	BACKGROUND-IMAGE: url(downsimple.png)
+}
+.ascending {
+	BACKGROUND-IMAGE: url(upsimple.png)
+}
+.SummaryTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#6699FF,endColorStr=#CFDBE8); COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif
+}
+.TableSubHead {
+	COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #e2eaf9
+}
+.bodytextit {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: italic; FONT-FAMILY: verdana, arial, sans-serif
+}
+
+.scrollbar {
+	SCROLLBAR-FACE-COLOR: #eaeaea; SCROLLBAR-HIGHLIGHT-COLOR: #666699; SCROLLBAR-SHADOW-COLOR: #666666; SCROLLBAR-3DLIGHT-COLOR: #b0c8e0; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #999999; SCROLLBAR-DARKSHADOW-COLOR: #999999
+}
+.WarningText {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: red
+}
+.helpContext {
+	FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #f0f8ff; HighlightedSection: 11px
+}
+.LoginSideBar {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0033cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.wpsFooter {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3366ff
+}
+   .toolTipOuterTable   {  background-color:#3399FF;width:100%;  }
+   .toolTipTitleTable   {  font-family:Verdana;font-weight:bold;font-size:7pt;color:white;background-image:url(background.gif);  }
+   .toolTipTitleText    {  padding:2px;  }
+   a.toolTipCloseText:active    {  
+    padding:2px;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:7pt;
+	text-align:right;
+	color: #FFCC33;
+	text-decoration:none;  }
+	a.toolTipCloseText:visited    {  
+    padding:2px;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:7pt;
+	text-align:right;
+	color: #FFCC33;
+	text-decoration:none;  }
+	a.toolTipCloseText:hover    {  
+    padding:2px;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:7pt;
+	text-align:right;
+	color: #FFCC33;
+	text-decoration:none;  }
+   .toolTipContentTable {  background-color:#E2EAF9;  }
+   .toolTipContentText  {   padding:2px;
+                         font-family:Verdana;
+						 font-size:7pt;
+						 color:black;
+						 vertical-align:top;  }
+/* Drop Down Menus main body style */
+  .dMenu         {  position:absolute;
+                    left:0;
+					top:0;
+					layer-background-color:#F0F8FF;
+					background-color:#F0F8FF;
+					visibility:hidden;
+					border:1px solid #3399FF;
+					padding:0px;
+					z-index:100;}
+/* Drop Down Menus link style */					
+/*.dMenuLink       {  font-size: xx-small;
+                    font-family: verdana, arial, sans serif;
+					color: #3333CC;
+					text-decoration: none;
+					cursor:hand;}*/
+					
+					
+/* Drop Down Menus link hover state style */					
+/*.dMenuLinkHover  {  font-size: xx-small;
+                    font-family: verdana, arial, sans serif;
+					color: #FFFFFF;
+					text-decoration: none;
+					background-color:#000080;
+					cursor:hand;}*/
+					
+					
+					
+/* Drop Down Menus link style */
+  .dMenuLink         {  font-size: xx-small ! important;
+                        font-family: verdana, arial, sans serif ! important;
+                        color: #3333CC ! important;
+                        text-decoration: none ! important;
+                        cursor:hand ! important;}
+/* Drop Down Menus link hover state style */
+  .dMenuLinkHover    {  font-size: xx-small ! important;
+                        font-family: verdana, arial, sans serif ! important;
+                        color: #FFFFFF ! important;
+                        text-decoration: none ! important;
+                        background-color:#000080 ! important;
+                        cursor:hand ! important;} 				
+					
+					
+					
+					
+					
+.confirmMessage
+{
+	
+
+	font-size: 11px;
+	font-weight: bold;
+	color: #003399;
+	background-color: #FFFFCC;
+}
+.errorMessage
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	background-color: #FFFFCC;
+}
+a#button:link
+ {
+ 	padding: 3px; 
+	border: 2px groove #cccccc; 
+	background: #eaeaea; 
+	COLOR: #3300cc; 
+	font: bold xx-small verdana, arial, sans-serif; 
+	text-decoration: none;
+	}
+a#button:visited
+ {
+ 	padding: 3px; 
+	border: 2px groove #cccccc; 
+	background: #eaeaea; 
+	color:#3300cc; 
+	font: bold xx-small verdana, arial, sans-serif; 
+	text-decoration: none;
+	}
+a#button:hover
+ {
+ 	background: #eaeaea; 
+	COLOR: #3300cc; 
+	border-color: #666666;
+	 text-decoration: none;
+}
+a#button:hover 
+{
+	background: #eaeaea; 
+	COLOR: #3300cc; 
+	border-color: #666666; 
+	border-style: inset; 
+	text-decoration: none;
+}
+
+
+.wpsTableShdRowBoldLeft {
+	FONT-WEIGHT: Bold; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: left
+}
+
+.wpsEnrollHeadRight
+{
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 7pt;
+        COLOR: #000000;
+        FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+        text-align: right
+}
+
+
+
+
+.Footer {  background-color: #3366FF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF}
+A.FooterLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.FooterLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+A.FooterLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+ 

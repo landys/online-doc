@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="UserLoginService" targetNamespace="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/bindings" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:porttype="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:import namespace="http://zju.edu/onlinedoc/grid/userlogin/UserLogin" location="UserLogin_flattened.wsdl"/>
+  <wsdl:binding name="UserLoginPortTypeSOAPBinding" type="porttype:UserLoginPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="deleteFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/deleteFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/createFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="loginNewUser">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/loginNewUserRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="canLoginSystem">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/canLoginSystemRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createEmptyFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/createEmptyFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFileRecordArray">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/getFileRecordArrayRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFileContent">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/getFileContentRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateFileContent">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/updateFileContentRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renameFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/renameFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/updateFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserNameArray">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/getUserNameArrayRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createShareFile">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/createShareFileRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFileList">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/deleteFileListRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFileRecord">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/getFileRecordRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createResource">
+      <soap:operation soapAction="http://zju.edu/onlinedoc/grid/userlogin/UserLogin/UserLoginPortType/createResourceRequest"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceProperty">
+      <soap:operation soapAction="http://docs.oasis-open.org/wsrf/2004/06/wsrf-WS-ResourceProperties/GetResourceProperty"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="InvalidResourcePropertyQNameFault">
+        <soap:fault name="InvalidResourcePropertyQNameFault" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="ResourceUnknownFault">
+        <soap:fault name="ResourceUnknownFault" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

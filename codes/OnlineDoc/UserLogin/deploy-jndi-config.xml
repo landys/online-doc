@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <jndiConfig xmlns="http://wsrf.globus.org/jndi/config">
+        <service name="UserLoginService">
+        	<resource name="home" type="zju.onlinedoc.grid.impl.UserLoginResourceHome">
+        	<resourceParams>
+        		<parameter>
+        			<name>factory</name>
+        			<value>org.globus.wsrf.jndi.BeanFactory</value>
+        		</parameter>
+        		
+        		<parameter>
+        			<name>resourceClass</name>
+        			<value>zju.onlinedoc.grid.impl.UserLoginResource</value>
+        		</parameter>
+        		<parameter>
+        			<name>resourceKeyType</name>
+        			<value>java.lang.Integer</value>
+        		</parameter>
+        		<parameter>
+        			<name>resourceKeyName</name>
+        			<value>{http://zju.edu/onlinedoc/grid/userlogin/UserLogin}UserLoginResourceKey</value>
+        		</parameter>
+        		
+        	</resourceParams>
+        	</resource>
+        	
+	    				<resource name="UserLogin" type="javax.sql.DataSource" auth="Container">
+	    				 <resourceParams> 
+	    							<parameter> 
+	    								<name>
+	    									factory
+	    								</name> 
+	    								<value>
+	    									org.apache.commons.dbcp.BasicDataSourceFactory
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									driverClassName
+	    								</name> 
+	    								<value>
+	    									org.gjt.mm.mysql.Driver
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									url
+	    								</name> 
+	    								<value>
+	    									jdbc:mysql://10.214.20.212:3306/onlinedoc
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									username
+	    								</name> 
+	    								<value>
+	    									root
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									password
+	    								</name> 
+	    								<value>
+	    									123456
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									maxActive
+	    								</name> 
+	    								<value>
+	    									20
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									maxIdle
+	    								</name> 
+	    								<value>
+	    									10
+	    								</value>
+	    							</parameter>
+	    					
+	    							<parameter> 
+	    								<name>
+	    									maxWait
+	    								</name> 
+	    								<value>
+	    									6000
+	    								</value>
+	    							</parameter>
+	    					</resourceParams>
+	    					</resource>
+        </service>
+        
+      </jndiConfig>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project default="all" name="Grid Service Deploy Tomcat" basedir=".">
+    <description>
+        It helps to deploy Grid Service on tomcat.
+    	There are two steps:
+    	1. deploy gar package on globus;
+    	2. deploy on tomcat.
+    </description>
+
+	<property file="buildservice.properties"/>
+    <property environment="env"/>
+	<property name="tomcat.webapp.lib.dir" value="webapps/wsrf/WEB-INF/lib"/>
+	<property name="bin.dir" value="bin"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="depJar.name" value="zju_onlinedoc_dep.jar"/>
+    <target name="all">
+    	<ant antfile="buildUserLogin.xml"/>
+		<!--<ant antfile="buildFileEditor.xml"/>-->
+        <ant antfile="${build.tomcat}" target="deployTomcat" dir="${build.tomcat.dir}" />
+    	<antcall target="depJar"/>
+    </target>
+<!--	
+	<target name="userLogin">
+    	<property name="gar.name" location="${userLogin.gar.name}"/>
+    	<echo message="*****************************************"/>
+    	<echo message="${gar.name}"/>
+        <ant antfile="${build.packages}" target="deployGar"/>
+	</target>
+	
+	<target name="fileEditor">
+		<property name="gar.name" location="${fileEditor.gar.name}" userproperty=""/>
+    	<echo message="*****************************************"/>
+    	<echo message="${gar.name}"/>
+    	<ant antfile="${build.packages}" target="deployGar"/>
+	</target>
+-->	
+	<target name="depJar">
+		<jar destfile="${tomcat.dir}/${tomcat.webapp.lib.dir}/${depJar.name}"
+			basedir="${bin.dir}" includes="**/*.class **/*.properties **/*.xml">
+		</jar>
+		<copy todir="${tomcat.dir}/${tomcat.webapp.lib.dir}">
+			<fileset dir="${lib.dir}" includes="**/*.jar,**/*.zip"/>
+		</copy>
+	</target>
+	<!--
+	<target name="undeploy">
+        <ant antfile="${build.packages}" target="undeployGar"/>
+        <ant antfile="${build.tomcat}" target="deployTomcat" dir="${build.tomcat.dir}" />
+    </target>
+    -->
+</project>

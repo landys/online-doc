@@ -1,0 +1,297 @@
+A {
+	COLOR: #3366cc
+}
+A:visited {
+	COLOR: #666699
+}
+A:hover {
+	COLOR: #6699cc
+}
+TABLE {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TR {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+
+INPUT {
+	BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #B0C8E0 1px solid; FONT-SIZE: x-small; BACKGROUND: #F8F8FF; BORDER-LEFT: #B0C8E0 1px solid; BORDER-BOTTOM: #6699cc 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #B0C8E0 1px solid; FONT-SIZE: x-small; BACKGROUND: #F8F8FF; BORDER-LEFT: #B0C8E0 1px solid; BORDER-BOTTOM: #6699cc 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #6699CC 1px solid; BORDER-TOP: #B0C8E0 1px solid; FONT-SIZE: x-small; BACKGROUND: #F8F8FF; BORDER-LEFT: #B0C8E0 1px solid; BORDER-BOTTOM: #6699cc 1px solid
+}
+INPUT.plainInput {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+FORM {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+; list-style-type: square
+; color: #0033CC
+; list-style-position: outside
+}
+P {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+BODY {
+	SCROLLBAR-FACE-COLOR: #f0f8ff; FONT-SIZE: xx-small; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #b0c8e0; SCROLLBAR-SHADOW-COLOR: #b0c8e0; SCROLLBAR-3DLIGHT-COLOR: #b0c8e0; SCROLLBAR-ARROW-COLOR: #3399ff; SCROLLBAR-TRACK-COLOR: #efefef; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #b0c8e0; BACKGROUND-COLOR: #F0F8FF
+}
+UL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.ToolBar {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#3366FF,endColorStr=#3399FF);
+}
+.ToolBar2 {
+	BACKGROUND-COLOR: #3399ff;
+}
+
+}
+.ToolBarLink {
+	FONT-SIZE: 7pt; COLOR: #FFFFFF; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.ToolBarLink:visited {
+	FONT-SIZE: 7pt; COLOR: #3399ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.ToolBarLink:hover {
+	FONT-SIZE: 7pt; COLOR: #000066; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.ToolBarSeparator {
+	3300cc: 
+}
+
+.PortletTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #FFFFFF; FONT-FAMILY: verdana, arial, sans-serif; LETTER-SPACING: 1px; BACKGROUND-COLOR: #f0f8ff
+}
+
+.TaskIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DialogIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DialogDisabledIconText {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #cfc5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.PortletBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.EditBack {
+	BACKGROUND-COLOR: #ffffff
+}
+
+.EditSmText {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.PortletTinyText {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.TableHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8
+}
+.TableHeadRight {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: right
+}
+.TableHeadLeft {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8; TEXT-ALIGN: left
+}
+.TableText {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.TableTextRed {
+	FONT-SIZE: xx-small; COLOR: #c83030; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.TableTextRedRight {
+	FONT-SIZE: xx-small; COLOR: #c83030; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.TableTextGreen {
+	FONT-SIZE: xx-small; COLOR: #228b22; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.TableTextGreenRight {
+	FONT-SIZE: xx-small; COLOR: #228b22; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.TableTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+; color: #000066; letter-spacing: 1px;
+}
+.TableTextBoldRight {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.TableRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.TableNrmRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.TableShdRow {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eaeaea
+}
+.TableShdRowLeft {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: left
+}
+.TableShdRowRight {
+	FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #eaeaea; TEXT-ALIGN: right
+}
+.TableHeadLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.TableHeadLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.TableHeadLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.LabelText {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.DescriptionText {
+	FONT-SIZE: xx-small; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.FieldErrorText {
+	COLOR: #c83030
+}
+.FieldWarningText {
+	COLOR: #000000
+}
+.FieldSuccessText {
+	COLOR: #000000
+}
+.FieldInfoText {
+	COLOR: #999999
+}
+.InlineHelpText {
+	COLOR: #009999
+}
+
+.TableHeadClear {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; FONT-FAMILY: verdana, arial, sans-serif
+}
+.TableHead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #cfdbe8
+}
+.TableTextRight {
+	FONT-SIZE: xx-small; FONT-FAMILY: verdana, arial, sans-serif; TEXT-ALIGN: right
+}
+
+.highlight {
+	FONT-SIZE: xx-small; COLOR: #333333; BACKGROUND-COLOR: #ffffcc; TEXT-DECORATION: none
+}
+.AdminButtonLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #00008b; BACKGROUND-COLOR: #fff8dc; TEXT-DECORATION: none
+}
+A.AdminButtonLink {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #00008b; BACKGROUND-COLOR: #fff8dc; TEXT-DECORATION: none
+}
+A.AdminButtonLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #333399; BACKGROUND-COLOR: #f0f8ff; TEXT-DECORATION: none
+}
+.AdminHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #228b22
+}
+.DefintionLink {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.DefintionLink {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.DefintionLink:active {
+	FONT-SIZE: x-small; COLOR: #003399; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+A.DefintionLink:hover {
+	FONT-SIZE: x-small; COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; TEXT-DECORATION: none
+}
+.CenterBlueText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; TEXT-ALIGN: center
+}
+.LeftBlueText {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333399; TEXT-ALIGN: left
+}
+
+.LegendText {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana, arial, sans-serif
+}
+.PortletTitleBlank {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-WEIGHT: bold; FONT-SIZE: x-small; BORDER-LEFT: #ffffff 0px solid; COLOR: #3300cc; BORDER-BOTTOM: #ffcc33 1px solid; FONT-FAMILY: verdana, arial, sans-serif
+}
+.Welcome {
+	FONT-WEIGHT: bold; LEFT: 400px; WIDTH: 200px; COLOR: #ffffff; POSITION: absolute; TOP: 45px
+}
+.TableTextBoldBig {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000000; 1px: 
+}
+.LabelHeadLeft {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #f0f8ff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #6699ff; TEXT-ALIGN: left
+}
+A.FooterLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.FooterLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+A.FooterLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+
+
+.PortletTabSpacer {
+	BORDER-RIGHT: #3399ff 0px solid; BORDER-TOP: #3399ff 0px solid; FONT-SIZE: xx-small; BORDER-LEFT: #3399ff 0px solid; COLOR: #666666; BORDER-BOTTOM: #3399ff 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sort-table {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BACKGROUND: window; FONT: Icon; BORDER-LEFT: buttonshadow 1px solid; COLOR: windowtext; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.sort-table THEAD {
+	BACKGROUND: buttonface
+}
+.sort-table TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.sort-table THEAD TD {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; BORDER-LEFT: buttonhighlight 1px solid; CURSOR: default; BORDER-BOTTOM: buttonshadow 1px solid
+}
+.sort-table THEAD TD:active {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 6px; BORDER-LEFT-COLOR: buttonshadow; BORDER-BOTTOM-COLOR: buttonhighlight; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: buttonshadow; PADDING-TOP: 3px; BORDER-RIGHT-COLOR: buttonhighlight
+}
+
+.SummaryTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#6699FF,endColorStr=#CFDBE8); COLOR: #ffffff; FONT-FAMILY: verdana, arial, sans-serif
+}
+.TableSubHead {
+	COLOR: #333333; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #e2eaf9
+}
+.bodytextit {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: italic; FONT-FAMILY: verdana, arial, sans-serif
+}
+
+.scrollbar {
+	SCROLLBAR-FACE-COLOR: #eaeaea; SCROLLBAR-HIGHLIGHT-COLOR: #666699; SCROLLBAR-SHADOW-COLOR: #666666; SCROLLBAR-3DLIGHT-COLOR: #b0c8e0; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #999999; SCROLLBAR-DARKSHADOW-COLOR: #999999
+}
+.WarningText {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: red
+}
+.helpContext {
+	FONT-SIZE: xx-small; COLOR: #000099; FONT-FAMILY: verdana, arial, sans-serif; BACKGROUND-COLOR: #f0f8ff; HighlightedSection: 11px
+}
+.LoginSideBar {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #333333; background-color: #E2EAF9}
+.Footer {  background-color: #3366FF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF}
+.LoginHeader {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #3333CC; background-color: #FFCC00}
+h2 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000066; letter-spacing: 1px;}
+.ButtonText
+{
+	FONT-SIZE: 11px;
+	FONT-WEIGHT:bold;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	background : url(button_bg2.gif);
+}
