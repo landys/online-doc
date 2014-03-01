@@ -4,10 +4,10 @@
 1. codes: 包括网格服务工程(OnlineDoc，基于GT4), Web工程(OnlineDocWeb，J2EE开发), 另外还包括SQL脚本(onlinedoc.sql), 可导入到Mysql数据库中;
 2. war: 部署到服务器的War包, 由codes中的两个工程生成, 基本wsrf.war网格服务工程生成的war包, OnlineDocWeb.war为Web工程War包;
 3. 网上文档系统说明.doc, 详细介绍系统功能, 实现细节等;
-4. howto.txt
+4. GT4的版本是Globus Toolkit 4 Java版(ws-core-4.0.5-bin.zip)。
 
 网上文档系统部署说明:
-1. 安装JDK6.0, Mysql 5.0, Apache Tomcat服务器(自带Apache AXIS), 下载Globus Toolkit 4 Java版(ws-core-4.0.5-bin.zip), 解压.
+1. 安装JDK6.0, Mysql 5.0, Apache Tomcat服务器(自带Apache AXIS).
 2. 导入onlinedoc.sql到Mysql数据库中.
 3. 部署工程到Apache Tomcat服务器, 具体为把war下的wsrf.war和OnlineDocWeb.war放到Tomcat安装目录下的webapps中.
 4. 启动Tomcat服务器, 在浏览器下输入类似: http://localhost:8080/OnlineDocWeb即可.
