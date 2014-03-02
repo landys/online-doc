@@ -1,6 +1,8 @@
 # OnlineDoc
 
-It's a web application similar as Google Doc but much simpler. It's a course project (Grid) done in Nov 2007 mainly in Java.
+It's a web application similar as Google Doc but much simpler. It's a course project (Grid Course) mainly in Java done by 2 guys in Nov 2007 when we were first-year graduate.
+
+The main technology it used were GT4 (Globus Toolkit 4) and J2EE. The database was MySql, and the IDE we used was Eclipse.
 
 ## Snapshots
 ![Login Page][img_login]
