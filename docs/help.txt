@@ -13,7 +13,7 @@
 4. 启动Tomcat服务器, 在浏览器下输入类似: http://localhost:8080/OnlineDocWeb即可.
 
 另外, Mysql数据库, 网格服务工程, Web工程可以安装或部署在不同的机器上. 但需要指定相应的服务器地址. 
-1. 网格服务工程访问Mysql数据库可如下配置: wsrf.war\WEB-INF\etc\zju_onlinedoc_grid_UserLogin.gar\jndi-config.xml中有一项值为jdbc:mysql://127.0.0.1:3306/onlinedoc, 改为相当数据库URL即可;
+1. 网格服务工程访问Mysql数据库可如下配置: wsrf.war\WEB-INF\etc\zju_onlinedoc_grid_UserLogin.gar\jndi-config.xml中有一项值为jdbc:mysql://127.0.0.1:3306/onlinedoc, 改为相当数据库URL即可; 用户名和密码也在该文件中配置。
 2. Web工程访问网格服务工程可如下配置: nlineDocWeb.war\WEB-INF\classes\zju\onlinedoc\util\config.properties中修改grid.url.UserLoginService的值为相应Grid Service地址.
 
 关于codes编译成war包:
